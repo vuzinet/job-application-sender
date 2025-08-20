@@ -17,7 +17,7 @@ Daripada kirim email manual satu per satu, script ini akan mengirim otomatis ber
 1. Masuk ke foldernya
 Kalau file kamu ada di Documents/send_mail, jalankan:
 
-cd ~/storage/documents/send_mail
+cd ~/storage/downloads/job-application-sender
 
 
 2. Cek isinya
