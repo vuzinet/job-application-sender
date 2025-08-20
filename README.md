@@ -11,3 +11,42 @@ Daripada kirim email manual satu per satu, script ini akan mengirim otomatis ber
 - Konfigurasi email & password lebih aman via config.json.
 
 - config.json, emails.txt, dan CV.pdf otomatis diabaikan dengan .gitignore.
+
+# 🚀 Cara jalanin script sendmail.js di Termux
+
+1. Masuk ke foldernya
+Kalau file kamu ada di Documents/send_mail, jalankan:
+
+cd ~/storage/documents/send_mail
+
+
+2. Cek isinya
+
+ls
+
+Harusnya muncul sendmail.js.
+
+
+3. Install Node.js (kalau belum)
+
+pkg update && pkg upgrade -y
+pkg install nodejs -y
+
+
+4. Install Nodemailer
+
+npm init -y
+npm install nodemailer
+
+
+5. Jalankan script
+
+node sendmail.js
+
+# 📂 Struktur Project
+
+├── sendmail.js     
+├── config.json     
+├── emails.txt      
+├── CV.pdf          
+└── .gitignore
