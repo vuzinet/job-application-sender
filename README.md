@@ -5,7 +5,7 @@ Daripada kirim email manual satu per satu, script ini akan mengirim otomatis ber
 ### ✨ Fitur
 - Kirim email lamaran kerja otomatis ke banyak perusahaan.
 
-- Interval waktu antar pengiriman (default: 30 detik).
+- Interval waktu antar pengiriman (default: 5 menit).
 
 - Support attachment (misalnya CV dalam format PDF).
 
