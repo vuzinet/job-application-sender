@@ -1,4 +1,5 @@
-# 📧 Auto Send Job Application Email
+# 📧 Auto Send Job Application Email 
+## Created by: vuzinet (ozi)
 Project ini dibuat untuk mempermudah pengiriman lamaran kerja ke banyak perusahaan sekaligus menggunakan Node.js dan Nodemailer.
 Daripada kirim email manual satu per satu, script ini akan mengirim otomatis berdasarkan daftar email yang sudah disiapkan. 🚀
 ### ✨ Fitur
@@ -14,34 +15,34 @@ Daripada kirim email manual satu per satu, script ini akan mengirim otomatis ber
 
 # 🚀 Cara jalanin script sendmail.js di Termux
 
-1. Masuk ke foldernya
+1.) Masuk ke foldernya
 Kalau file kamu ada di Documents/send_mail, jalankan:
 
-cd ~/storage/downloads/job-application-sender
+- cd ~/storage/downloads/job-application-sender
 
 
-2. Cek isinya
+2.) Cek isinya
 
-ls
+- ls
 
-Harusnya muncul sendmail.js.
-
-
-3. Install Node.js (kalau belum)
-
-pkg update && pkg upgrade -y
-pkg install nodejs -y
+- (Harusnya muncul sendmail.js)
 
 
-4. Install Nodemailer
+3.) Install Node.js (kalau belum)
 
-npm init -y
-npm install nodemailer
+- pkg update && pkg upgrade -y
+- pkg install nodejs -y
 
 
-5. Jalankan script
+4.) Install Nodemailer
 
-node sendmail.js
+- npm init -y
+- npm install nodemailer
+
+
+5.) Jalankan script
+
+- node sendmail.js
 
 # 📂 Struktur Project
 
